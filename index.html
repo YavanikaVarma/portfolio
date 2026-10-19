@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Yavanika Varma — AI/ML & Cloud</title>
+<meta name="description" content="Portfolio of Yavanika Varma — Computer Science undergraduate specialising in AI/ML, Python and Microsoft Azure cloud solutions." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>" />
+</head>
+<body>
+
+<!-- ============ PRELOADER ============ -->
+<div class="loader" id="loader">
+  <div class="loader__inner">
+    <div class="loader__word">
+      <span>Y</span><span>a</span><span>v</span><span>a</span><span>n</span><span>i</span><span>k</span><span>a</span>
+    </div>
+    <div class="loader__bar"><i id="loaderBar"></i></div>
+    <div class="loader__meta"><span>PORTFOLIO</span><span id="loaderCount">00</span></div>
+  </div>
+</div>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" id="progress"></div>
+
+<!-- ambient aurora -->
+<div class="aurora" aria-hidden="true">
+  <div class="blob blob--1"></div>
+  <div class="blob blob--2"></div>
+  <div class="blob blob--3"></div>
+</div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <a href="#top" class="nav__logo">
+    <span class="nav__mark">Y</span>
+    <span class="nav__name">Yavanika<em>Varma</em></span>
+  </a>
+
+  <nav class="nav__links" id="navLinks">
+    <a href="#about" class="nav__link">About</a>
+    <a href="#skills" class="nav__link">Skills</a>
+    <a href="#work" class="nav__link">Work</a>
+    <a href="#journey" class="nav__link">Journey</a>
+    <a href="#certs" class="nav__link">Certifications</a>
+  </nav>
+
+  <div class="nav__right">
+    <a href="#contact" class="btn btn--sm magnetic">
+      <span>Let's talk</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero__grid wrapper">
+    <div class="hero__copy">
+      <div class="eyebrow reveal">
+        <span class="eyebrow__dot"></span>
+        AI / ML &nbsp;·&nbsp; Cloud &nbsp;·&nbsp; Product
+        <span class="eyebrow__sep"></span>
+        <span class="mono">Mumbai, IN</span>
+      </div>
+
+      <h1 class="hero__title">
+        <span class="line split">Building</span>
+        <span class="line split"><em>intelligent</em> things</span>
+        <span class="line split">people love to use.</span>
+      </h1>
+
+      <p class="hero__sub reveal">
+        Computer Science undergraduate specializing in <strong>AI/ML, Python and Cloud Architecture</strong> —
+        designing high-performance user interfaces and resilient architectures on
+        <strong>Microsoft Azure</strong>. Certified across 7 Microsoft credentials (including 2 Associate-level), curious by default.
+      </p>
+
+      <div class="hero__actions reveal">
+        <a href="#work" class="btn btn--primary magnetic">
+          <span>Explore my work</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="#contact" class="btn btn--ghost magnetic">
+          <span>Get in touch</span>
+        </a>
+      </div>
+
+      <div class="hero__stats reveal">
+        <div class="stat">
+          <span class="stat__num" data-count="9.21" data-decimals="2">0</span>
+          <span class="stat__suffix">/10</span>
+          <span class="stat__label">CGPA</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="7">0</span>
+          <span class="stat__suffix">×</span>
+          <span class="stat__label">MS certs</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="3">0</span>
+          <span class="stat__suffix"></span>
+          <span class="stat__label">Projects</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__visual">
+      <div class="orb-wrap" data-parallax="0.06">
+        <div class="orb">
+          <div class="orb__ring orb__ring--a"></div>
+          <div class="orb__ring orb__ring--b"></div>
+          <div class="orb__core">
+            <span class="orb__initials">YV</span>
+            <span class="orb__role mono">AI · CLOUD</span>
+          </div>
+          <div class="orbit-badge orbit-badge--1" data-depth="26">Azure<br /><b>AI-900</b></div>
+          <div class="orbit-badge orbit-badge--2" data-depth="34">Azure<br /><b>AI-200</b></div>
+          <div class="orbit-badge orbit-badge--3" data-depth="20">AZ<br /><b>104</b></div>
+          <div class="orbit-badge orbit-badge--4" data-depth="42">GATE<br /><b>2026</b></div>
+        </div>
+      </div>
+
+      <div class="float-card float-card--a reveal" data-parallax="0.12">
+        <span class="float-card__k mono">SIH 2025</span>
+        <span class="float-card__v">Team Lead · 6 people</span>
+      </div>
+      <div class="float-card float-card--b reveal" data-parallax="0.18">
+        <span class="float-card__k mono">CURRENTLY</span>
+        <span class="float-card__v">Building InclusiCare</span>
+        <span class="float-card__dot"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <span class="mono">SCROLL</span>
+    <span class="scroll-hint__line"></span>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>Python</span><i>✦</i><span>Azure AI</span><i>✦</i><span>React</span><i>✦</i><span>Machine Learning</span><i>✦</i><span>Node.js</span><i>✦</i><span>MongoDB</span><i>✦</i><span>C++</span><i>✦</i><span>Cloud Architecture</span><i>✦</i>
+    <span>Python</span><i>✦</i><span>Azure AI</span><i>✦</i><span>React</span><i>✦</i><span>Machine Learning</span><i>✦</i><span>Node.js</span><i>✦</i><span>MongoDB</span><i>✦</i><span>C++</span><i>✦</i><span>Cloud Architecture</span><i>✦</i>
+  </div>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="wrapper">
+    <div class="section__head">
+      <h2 class="section__title reveal">A little <em>about</em> me</h2>
+    </div>
+
+    <div class="about">
+      <div class="about__lead reveal">
+        <p>
+          I'm a Computer Science undergrad who likes the space where
+          <span class="hl">algorithms meet aesthetics</span> — where a model isn't
+          finished until the person using it feels understood.
+        </p>
+        <p class="about__small">
+          I lead teams, design interfaces, reason about cloud costs, and prototype fast.
+          Right now I'm balancing a 9.21 CGPA with building products, hosting
+          tech events, and collecting Microsoft certifications.
+        </p>
+      </div>
+
+      <div class="about__side">
+        <div class="edu card reveal" data-tilt>
+          <div class="card__glow"></div>
+          <span class="mono card__tag">EDUCATION · 2023 — 2027</span>
+          <h3>B.Tech, Computer Science</h3>
+          <p>Parul Institute of Engineering &amp; Technology<br />Industry Experience Program (IEP) — Microsoft</p>
+          <div class="edu__row">
+            <div><b>9.22</b><span>CGPA / 10</span></div>
+            <div class="edu__sep"></div>
+            <div><b>2027</b><span>Graduating</span></div>
+          </div>
+          <div class="edu__history">
+            <div class="edu__item">
+              <div class="edu__item-info">
+                <h4>Class XII · Maharashtra Board</h4>
+                <p>Narayana E-Techno School, Kalyan West</p>
+              </div>
+              <div class="edu__item-score">
+                <b>75.50%</b>
+                <span>2023</span>
+              </div>
+            </div>
+            <div class="edu__item">
+              <div class="edu__item-info">
+                <h4>Class X · CBSE</h4>
+                <p>Jaipuriar School, Sanpada</p>
+              </div>
+              <div class="edu__item-score">
+                <b>94.67%</b>
+                <span>2021</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="values reveal">
+          <div class="value"><span class="value__ico">◇</span><div><b>User-first</b><p>Interfaces that reduce friction, not add polish for its own sake.</p></div></div>
+          <div class="value"><span class="value__ico">◈</span><div><b>Cost-aware</b><p>Architecture that respects budgets, not just benchmarks.</p></div></div>
+          <div class="value"><span class="value__ico">◉</span><div><b>Ship &amp; learn</b><p>Prototype early, test with real people, iterate fast.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section section--tint" id="skills">
+  <div class="wrapper">
+    <div class="section__head">
+      <h2 class="section__title reveal">Tools of the <em>trade</em></h2>
+    </div>
+
+    <div class="skills">
+      <article class="skill card reveal" data-tilt>
+        <div class="card__glow"></div>
+        <header><span class="skill__ico">⌘</span><h3>Languages</h3></header>
+        <p>Day-to-day problem solving, from SQL queries to C++ data structures.</p>
+        <ul class="chips">
+          <li>Python</li><li>C++</li><li>Java</li><li>C</li><li>JavaScript</li><li>SQL</li>
+        </ul>
+      </article>
+
+      <article class="skill card reveal" data-tilt>
+        <div class="card__glow"></div>
+        <header><span class="skill__ico">☁</span><h3>AI / ML &amp; Cloud</h3></header>
+        <p>Fundamentals plus practical Azure AI services, cloud architectures and DSA.</p>
+        <ul class="chips">
+          <li class="chip--accent">Microsoft Azure</li><li class="chip--accent">Azure AI</li><li>ML Fundamentals</li><li>Cloud Computing</li><li>DSA (C++)</li>
+        </ul>
+      </article>
+
+      <article class="skill card reveal" data-tilt>
+        <div class="card__glow"></div>
+        <header><span class="skill__ico">◧</span><h3>Web &amp; Data</h3></header>
+        <p>Full-stack building blocks for products that need to actually launch.</p>
+        <ul class="chips">
+          <li>React</li><li>Node.js</li><li>HTML5</li><li>CSS3</li><li>MongoDB</li><li>DBMS / SQL</li>
+        </ul>
+      </article>
+
+      <article class="skill card reveal" data-tilt>
+        <div class="card__glow"></div>
+        <header><span class="skill__ico">⌬</span><h3>Systems &amp; Tools</h3></header>
+        <p>Core systems theory, version control, modern IDEs and creative tools.</p>
+        <ul class="chips">
+          <li>Computer Networks</li><li>Operating Systems</li><li>Embedded Systems</li><li>Software Eng.</li><li>Linux</li><li>Git &amp; GitHub</li><li>VS Code</li><li>Android Studio</li><li>IntelliJ IDEA</li><li>Figma</li><li>Canva</li><li>Antigravity</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="proficiency reveal">
+      <div class="prof">
+        <div class="prof__top"><span>Python &amp; AI/ML</span><b class="mono" data-bar-num>92%</b></div>
+        <div class="prof__track"><i data-bar="92"></i></div>
+      </div>
+      <div class="prof">
+        <div class="prof__top"><span>Microsoft Azure</span><b class="mono" data-bar-num>88%</b></div>
+        <div class="prof__track"><i data-bar="88"></i></div>
+      </div>
+      <div class="prof">
+        <div class="prof__top"><span>Frontend / React</span><b class="mono" data-bar-num>85%</b></div>
+        <div class="prof__track"><i data-bar="85"></i></div>
+      </div>
+      <div class="prof">
+        <div class="prof__top"><span>DSA · C++</span><b class="mono" data-bar-num>83%</b></div>
+        <div class="prof__track"><i data-bar="83"></i></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WORK ============ -->
+<section class="section" id="work">
+  <div class="wrapper">
+    <div class="section__head section__head--row">
+      <div>
+        
+        <h2 class="section__title reveal">Selected <em>work</em></h2>
+      </div>
+      <p class="section__note reveal">Three builds that taught me the most — about users, about cost, about privacy.</p>
+    </div>
+
+    <div class="projects">
+
+      <article class="project reveal" data-tilt>
+        <div class="card__glow"></div>
+        <div class="project__top">
+          <span class="project__idx mono">/ 001</span>
+          <span class="project__year mono">2026 · IN PROGRESS</span>
+        </div>
+        <div class="project__body">
+          <div class="project__info">
+            <h3>InclusiCare</h3>
+            <p class="project__tagline">Privacy-first mental wellness, built for anonymity.</p>
+            <p class="project__desc">
+              A privacy-first mental wellness web platform built with the MERN stack. Designed
+              with anonymous peer-support workflows, accessible responsive UI, and secure data
+              handling to facilitate safe digital interactions.
+            </p>
+            <ul class="chips chips--sm">
+              <li>MongoDB</li><li>Express</li><li>React</li><li>Node.js</li><li>UI Systems</li>
+            </ul>
+          </div>
+          <div class="project__visual pv--care" aria-hidden="true">
+            <div class="pv-window">
+              <div class="pv-bar"><i></i><i></i><i></i></div>
+              <div class="pv-screen">
+                <img src="inclusicare-preview.png" alt="InclusiCare Platform Interface" class="pv-img" loading="lazy" decoding="async" />
+              </div>
+            </div>
+            <div class="pv-shadow"></div>
+          </div>
+        </div>
+        <footer class="project__foot">
+          <span class="mono">MERN · WELLNESS</span>
+          <div class="project__links">
+            <a href="https://github.com/YavanikaVarma/InclusiCare" target="_blank" rel="noopener noreferrer" class="arrow-link">GitHub
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+            <a href="https://inclusicare.onrender.com/" target="_blank" rel="noopener noreferrer" class="arrow-link">Live project
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </footer>
+      </article>
+
+      <article class="project reveal" data-tilt>
+        <div class="card__glow"></div>
+        <div class="project__top">
+          <span class="project__idx mono">/ 002</span>
+          <span class="project__year mono">2025 · SIH</span>
+        </div>
+        <div class="project__body project__body--rev">
+          <div class="project__info">
+            <h3>Trajectio</h3>
+            <p class="project__tagline">Career guidance that actually narrows it down.</p>
+            <p class="project__desc">
+              Led a 6-person team to build a quiz-driven counselling platform. I designed the
+              assessment logic that maps choices to best-fit career paths, plus the sign-up
+              flow and navigation that keeps students moving.
+            </p>
+            <ul class="chips chips--sm">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Auth</li><li>Assessment Logic</li>
+            </ul>
+          </div>
+          <div class="project__visual pv--career" aria-hidden="true">
+            <div class="pv-window">
+              <div class="pv-bar"><i></i><i></i><i></i></div>
+              <div class="pv-screen">
+                <img src="trajectio-preview.png" alt="Trajectio Platform Interface" class="pv-img" loading="lazy" decoding="async" />
+              </div>
+            </div>
+            <div class="pv-shadow"></div>
+          </div>
+        </div>
+        <footer class="project__foot">
+          <span class="mono">TEAM LEAD · 6 MEMBERS</span>
+          <div class="project__links">
+            <a href="https://github.com/YavanikaVarma/Trajectio" target="_blank" rel="noopener noreferrer" class="arrow-link">GitHub
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+            <a href="https://yavanikavarma.github.io/Trajectio/" target="_blank" rel="noopener noreferrer" class="arrow-link">Live project
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </footer>
+      </article>
+
+      <article class="project reveal" data-tilt>
+        <div class="card__glow"></div>
+        <div class="project__top">
+          <span class="project__idx mono">/ 003</span>
+          <span class="project__year mono">2025 · AZ-900</span>
+        </div>
+        <div class="project__body">
+          <div class="project__info">
+            <h3>Cost-Aware Azure Architecture</h3>
+            <p class="project__tagline">PaaS-first design, priced before it's pitched.</p>
+            <p class="project__desc">
+              A case study for an ed-tech platform: compared IaaS, PaaS and serverless models
+              for scalability, simplicity and spend — then validated the numbers in the Azure
+              Portal and Pricing Calculator.
+            </p>
+            <ul class="chips chips--sm">
+              <li>Azure</li><li>Pricing Calculator</li><li>Architecture</li><li>Cloud Strategy</li>
+            </ul>
+          </div>
+          <div class="project__visual pv--cloud" aria-hidden="true">
+            <div class="pv-cloud">
+              <div class="pv-node pv-node--core">PaaS</div>
+              <div class="pv-node pv-node--a"></div>
+              <div class="pv-node pv-node--b"></div>
+              <div class="pv-node pv-node--c"></div>
+              <svg viewBox="0 0 200 200" class="pv-wires"><path d="M100 100 L46 56 M100 100 L156 58 M100 100 L124 162"/></svg>
+            </div>
+            <div class="pv-price mono">$ <span>▼ 38%</span></div>
+          </div>
+        </div>
+        <footer class="project__foot">
+          <span class="mono">CASE STUDY · ARCHITECTURE</span>
+          <div class="project__links">
+            <a href="https://github.com/YavanikaVarma/az-900-cloud-architecture-case-study" target="_blank" rel="noopener noreferrer" class="arrow-link">GitHub
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+            <a href="https://yavanikavarma.github.io/az-900-cloud-architecture-case-study/" target="_blank" rel="noopener noreferrer" class="arrow-link">Live case study
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </footer>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ JOURNEY ============ -->
+<section class="section section--tint" id="journey">
+  <div class="wrapper">
+    <div class="section__head">
+      
+      <h2 class="section__title reveal">Beyond the <em>code</em></h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline__line" aria-hidden="true"><i></i></div>
+
+      <article class="tl reveal">
+        <span class="tl__dot"></span>
+        <span class="tl__year mono">2024</span>
+        <div class="tl__body">
+          <h3>Smart India Hackathon (SIH) — Team Leader</h3>
+          <p>Led a 6-member team in designing and developing Trajectio, a web-based career counselling platform to help students identify suitable academic and career paths. Coordinated project planning, feature design, and task distribution while contributing to system architecture, career assessment logic, and user navigation and interaction design.</p>
+          <span class="tl__tag">Leadership · Team Lead</span>
+        </div>
+      </article>
+
+      
+      <article class="tl reveal">
+        <span class="tl__dot"></span>
+        <span class="tl__year mono">2024 — 26</span>
+        <div class="tl__body">
+          <h3>Event Host / Anchor — Technical &amp; Academic Events</h3>
+          <p>Hosted four major technical and institutional events, managing stage coordination, audience interaction, and event flow for large student audiences and invited speakers:</p>
+          <div class="tl__events">
+            <div class="tl__event-card">
+              <span class="tl__event-dot"></span>
+              <div>
+                <strong>Google NXT Hub Inauguration</strong>
+                <span>Technical &amp; Institutional Launch</span>
+              </div>
+            </div>
+            <div class="tl__event-card">
+              <span class="tl__event-dot"></span>
+              <div>
+                <strong>AWS Student Community Day Vadodara</strong>
+                <span>Cloud Developer Conference</span>
+              </div>
+            </div>
+            <div class="tl__event-card">
+              <span class="tl__event-dot"></span>
+              <div>
+                <strong>MIC Master Semi-Final</strong>
+                <span>Innovation &amp; Project Competition</span>
+              </div>
+            </div>
+            <div class="tl__event-card">
+              <span class="tl__event-dot"></span>
+              <div>
+                <strong>Value Added Courses Valedictory Ceremony</strong>
+                <span>Institutional Ceremony</span>
+              </div>
+            </div>
+          </div>
+          <span class="tl__tag">Technical Emcee · 1,000+ Attendees Hosted</span>
+        </div>
+      </article>
+
+      
+      <article class="tl reveal">
+        <span class="tl__dot"></span>
+        <span class="tl__year mono">2025</span>
+        <div class="tl__body">
+          <h3>PUMUN 4.0 — Execution Team Member</h3>
+          <p>Supported logistics, coordination, and operational planning for the successful execution of the university’s Model United Nations conference.</p>
+          <span class="tl__tag">Operations &amp; Logistics</span>
+        </div>
+      </article>
+
+      <article class="tl reveal">
+        <span class="tl__dot"></span>
+        <span class="tl__year mono">2025</span>
+        <div class="tl__body">
+          <h3>Tech Expo 2025 — Assessment Team Member</h3>
+          <p>Assisted in evaluating student technology projects and coordinating the assessment process during the technical exhibition.</p>
+          <span class="tl__tag">Assessment Team</span>
+        </div>
+      </article>
+
+
+      
+
+      
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATIONS ============ -->
+<section class="section" id="certs">
+  <div class="wrapper">
+    <div class="section__head section__head--row">
+      <div>
+        
+        <h2 class="section__title reveal">Paper <em>trail</em></h2>
+      </div>
+      
+    </div>
+
+    <div class="certs">
+      <a href="https://learn.microsoft.com/api/credentials/share/en-us/YAVANIKAVARMA-4915/8EF7026D7359509A?sharingId=75086259455351CF" target="_blank" rel="noopener noreferrer" class="cert cert--featured reveal" data-tilt>
+        <div class="card__glow"></div>
+        <div class="cert__top">
+          <span class="cert__code mono">AZ-104</span>
+          <span class="cert__badge mono">Associate</span>
+        </div>
+        <h3>Azure Administrator Associate</h3>
+        <span class="cert__issuer">Microsoft Certified</span>
+        <span class="cert__arrow">↗</span>
+      </a>
+      <a href="https://drive.google.com/file/d/1uhHhqMfHqfvhnZWZ469_jAFbFCQCnKZt/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="cert cert--featured reveal" data-tilt>
+        <div class="card__glow"></div>
+        <div class="cert__top">
+          <span class="cert__code mono">AI-200</span>
+          <span class="cert__badge mono">Associate</span>
+        </div>
+        <h3>Azure AI Cloud Developer Associate</h3>
+        <span class="cert__issuer">Microsoft Certified</span>
+        <span class="cert__arrow">↗</span>
+      </a>
+      <a href="https://learn.microsoft.com/api/credentials/share/en-us/YAVANIKAVARMA-4915/93F8D4C2B32C9A51?sharingId=75086259455351CF" target="_blank" rel="noopener noreferrer" class="cert reveal" data-tilt>
+        <div class="card__glow"></div>
+        <span class="cert__code mono">AI-900</span>
+        <h3>Azure AI Fundamentals</h3>
+        <span class="cert__issuer">Microsoft Certified</span>
+        <span class="cert__arrow">↗</span>
+      </a>
+      <a href="https://drive.google.com/file/d/19uuEukZGu8hCmnTrZIcM6fy2fC12MUIz/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="cert reveal" data-tilt>
+        <div class="card__glow"></div>
+        <span class="cert__code mono">AZ-900</span>
+        <h3>Azure Fundamentals</h3>
+        <span class="cert__issuer">Microsoft Certified</span>
+        <span class="cert__arrow">↗</span>
+      </a>
+      <a href="https://drive.google.com/file/d/1zWsRJUl4ETybpNW0MV_mQS8OYhAxPGtr/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="cert reveal" data-tilt>
+        <div class="card__glow"></div>
+        <span class="cert__code mono">DP-900</span>
+        <h3>Azure Data Fundamentals</h3>
+        <span class="cert__issuer">Microsoft Certified</span>
+        <span class="cert__arrow">↗</span>
+      </a>
+      <a href="https://drive.google.com/file/d/192fljEWFR5FgOjZlJLNSVv14KC_vlX66/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="cert reveal" data-tilt>
+        <div class="card__glow"></div>
+        <span class="cert__code mono">PL-900</span>
+        <h3>Power Platform Fundamentals</h3>
+        <span class="cert__issuer">Microsoft Certified</span>
+        <span class="cert__arrow">↗</span>
+      </a>
+      <a href="https://drive.google.com/file/d/1Tx0fZ_XKDH55ZkQE0Ocwj4JBg9waCz9R/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="cert reveal" data-tilt>
+        <div class="card__glow"></div>
+        <span class="cert__code mono">SC-900</span>
+        <h3>Security, Compliance &amp; Identity</h3>
+        <span class="cert__issuer">Microsoft Certified</span>
+        <span class="cert__arrow">↗</span>
+      </a>
+      <a href="https://drive.google.com/file/d/1U9vYc3dK1A2bqYZB4hpLgpIHQm4uZjkv/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="cert cert--wide reveal" data-tilt>
+        <div class="card__glow"></div>
+        <div class="cert__top">
+          <span class="cert__code mono">NPTEL · IIT KHARAGPUR</span>
+          <span class="cert__badge mono">Elite · 12 Weeks</span>
+        </div>
+        <h3>Computer Networks &amp; Internet Protocol</h3>
+        <span class="cert__issuer">National Programme on Technology Enhanced Learning · MoE, Govt. of India</span>
+        <span class="cert__arrow">↗</span>
+      </a>
+      <a href="https://drive.google.com/file/d/1pLD5i9S48DPfwlKrZGnliNzW7czyUMMy/view" target="_blank" rel="noopener noreferrer" class="cert cert--gold reveal" data-tilt>
+        <div class="card__glow"></div>
+        <span class="cert__code mono">GATE 2026</span>
+        <div class="cert__gate">
+          <h3>GATE 2026 Qualified — Computer Science &amp; IT (CS)</h3>
+          <span class="cert__issuer">National Level · Computer Science and Information Technology</span>
+        </div>
+        <span class="cert__arrow">✦</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="wrapper">
+    <div class="contact__inner reveal">
+      <span class="mono contact__eyebrow">CONTACT</span>
+      <h2 class="contact__title">
+        Let's build something<br />
+        <em>worth using.</em>
+      </h2>
+      <p class="contact__sub">
+        Open to internships, collaborations and teams working on AI, cloud or
+        products with a human at the centre.
+      </p>
+
+      <a href="mailto:varmayavanika09@gmail.com" class="contact__mail magnetic">
+        <span>varmayavanika09@gmail.com</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+
+      <div class="contact__links">
+        <a href="https://github.com/YavanikaVarma" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/yavanika-varma/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="tel:+918591605591">+91 85916 05591</a>
+        <span>Mumbai, India</span>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <span>© <span id="year">2026</span> Yavanika Varma</span>
+      <span class="mono">DESIGNED &amp; BUILT WITH CARE</span>
+      <a href="#top" class="footer__top">Back to top ↑</a>
+    </footer>
+  </div>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
