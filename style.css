@@ -542,32 +542,15 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .pv-progress { height: 3px; background: #ece5da; margin: 0 16px 16px; border-radius: 2px; overflow: hidden; }
 .pv-progress i { display: block; height: 100%; width: 62%; background: linear-gradient(90deg, var(--violet), var(--coral)); }
 
-.pv--cloud { min-height: 260px; }
-.pv-cloud { position: relative; width: 240px; height: 200px; animation: floaty 8s ease-in-out infinite; will-change: transform; }
-.pv-wires { position: absolute; inset: 0; width: 100%; height: 100%; }
-.pv-wires path { fill: none; stroke: rgba(107, 75, 255, 0.3); stroke-width: 1; stroke-dasharray: 4 4; animation: dash 12s linear infinite; }
-@keyframes dash { to { stroke-dashoffset: -100; } }
-.pv-node { position: absolute; border-radius: 10px; background: rgba(255,255,255,0.9); border: 1px solid rgba(22,19,28,0.08); box-shadow: 0 12px 26px -16px rgba(48,34,90,0.4); }
-.pv-node--core {
-  width: 74px; height: 74px; left: 63px; top: 63px; border-radius: 50%;
-  display: grid; place-items: center; font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.1em;
-  color: #fff; background: linear-gradient(140deg, #7d5cff, #ff8b6b); border: 0;
-  box-shadow: 0 18px 40px -16px rgba(107,75,255,0.7);
-}
-.pv-node--a { width: 34px; height: 34px; left: 29px; top: 39px; }
-.pv-node--b { width: 40px; height: 40px; right: 22px; top: 38px; background: linear-gradient(140deg, #fff, #efe9ff); }
-.pv-node--c { width: 30px; height: 30px; right: 44px; bottom: 6px; }
-.pv-node--a, .pv-node--b, .pv-node--c { animation: bob 6s ease-in-out infinite; }
-.pv-node--b { animation-delay: -2s; }
-.pv-node--c { animation-delay: -4s; }
-@keyframes bob { 50% { transform: translateY(-7px); } }
+.pv--cloud .pv-window { transform: rotateX(6deg) rotateY(-8deg) rotateZ(1deg); }
 .pv-price {
-  position: absolute; right: 6%; bottom: 8%;
-  padding: 0.5rem 0.8rem; border-radius: 10px; background: rgba(255,255,255,0.9);
-  border: 1px solid rgba(22,19,28,0.07); backdrop-filter: blur(8px);
-  font-size: 0.7rem; color: var(--ink);
+  position: absolute; right: 4%; bottom: 6%; z-index: 2;
+  padding: 0.5rem 0.85rem; border-radius: 12px; background: rgba(255,255,255,0.92);
+  border: 1px solid rgba(22,19,28,0.08); backdrop-filter: blur(8px);
+  box-shadow: 0 14px 30px -12px rgba(48,34,90,0.35);
+  font-size: 0.72rem; color: var(--ink);
 }
-.pv-price span { color: #1d9d74; }
+.pv-price span { color: #1d9d74; font-weight: 600; }
 
 /* ---------- timeline ---------- */
 .timeline { position: relative; padding-left: 3rem; }
